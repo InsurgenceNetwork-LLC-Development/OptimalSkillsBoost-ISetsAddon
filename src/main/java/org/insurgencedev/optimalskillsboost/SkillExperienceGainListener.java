@@ -48,7 +48,7 @@ public class SkillExperienceGainListener implements Listener {
                     }
 
                     for (Boost boost : upgrade.getBoosts()) {
-                        if ("BOOSTER".equals(boost.getNamespace()) && boost.getType().equals("Skills")) {
+                        if ("MISC".equals(boost.getNamespace()) && boost.getType().equals("Skills")) {
                             double boostAmount = boost.getBOOST_SETTINGS().getDouble("Boost_Amount");
                             event.setExperience(calcAmountToGive(event.getExperience(), boost, boostAmount));
                         }
