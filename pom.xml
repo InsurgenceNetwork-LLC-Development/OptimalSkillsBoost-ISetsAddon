@@ -6,7 +6,7 @@
 
     <groupId>org.insurgencedev</groupId>
     <artifactId>OptimalSkillsBoost</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <author>Hxtch#4275</author>
@@ -26,8 +26,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>14</source>
-                    <target>14</target>
+                    <source>16</source>
+                    <target>16</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -39,7 +39,7 @@
             <artifactId>insurgencesets</artifactId>
             <version>LATEST</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/libs/ISets-0.0.7-beta.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/libs/ISets-1.0.5-API.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.optimalgames</groupId>
