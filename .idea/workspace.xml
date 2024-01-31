@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="448e6ad6-1b1a-4c0a-bd51-7e99824f106a" name="Changes" comment="fixed addon stop working after main plugin reload">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/insurgencedev/optimalskillsboost/listeners/SkillExperienceGainListener.java" afterDir="false" />
+    <list default="true" id="448e6ad6-1b1a-4c0a-bd51-7e99824f106a" name="Changes" comment="fixed boost give incorrect amounts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/insurgencedev/optimalskillsboost/OptimalSkillBoostAddon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/insurgencedev/optimalskillsboost/OptimalSkillBoostAddon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/insurgencedev/optimalskillsboost/SkillExperienceGainListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/insurgencedev/optimalskillsboost/listeners/SkillExperienceGainListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/insurgencedev/optimalskillsboost/listeners/SkillExperienceGainListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +28,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hutch/Desktop/ISetsAddons/OptimalSkillsBoost/src/main/libs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/hutch/Desktop/ISetsAddons/RivalHoesBoost",
+    "settings.editor.selected.configurable": "MTConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hutch\Desktop\ISetsAddons\OptimalSkillsBoost\src\main\libs" />
@@ -113,12 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701237439546</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed boost give incorrect amounts">
+      <option name="closed" value="true" />
+      <created>1705881206760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705881206760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="fixed addon stop working after main plugin reload" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed addon stop working after main plugin reload" />
+    <MESSAGE value="fixed boost give incorrect amounts" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed boost give incorrect amounts" />
   </component>
 </project>
