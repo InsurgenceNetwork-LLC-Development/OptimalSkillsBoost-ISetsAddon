@@ -7,7 +7,7 @@ Using the below settings, the player will receive a 100% boost on the amount of 
 
 ```yaml
 Boosts:
-  - Namespace: MISC
+  - Namespace: OPTIMAL_SKILLS
     Type: Skills
     Percent: true
     Settings:
